@@ -1,0 +1,11 @@
+# 检测报告可能包含个人出口 IP、节点域名等敏感信息，不入库
+report.json
+*.report.json
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+*.log
